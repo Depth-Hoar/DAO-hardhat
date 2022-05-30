@@ -23,9 +23,9 @@ module.exports = {
 
   networks: {
     goerli: {
-      url: `https://eth-goerli.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
-      // accounts: [`0x${privateKey}`],
+      url: `https://eth-goerli.alchemyapi.io/v2/`,
       accounts: [`0x${privateKey}`],
+      // accounts: [`0x${privateKey}`],
     },
   },
 };
