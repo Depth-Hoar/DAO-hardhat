@@ -27,8 +27,7 @@ module.exports = {
       url: `https://eth-goerli.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
       chainId: 5,
       // accounts: [`0x${privateKey}`],
-      accounts: [`0x${process.env.PRIVATE_KEY}`],
-      // accounts: ['0b0d2c36a3d6dc512900321213446587ba72b894b7701dc508b11c417d7a3dd5'],
+      accounts: [`0x${privateKey}`],
     },
   },
 };
